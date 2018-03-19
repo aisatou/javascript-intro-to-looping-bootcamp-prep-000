@@ -25,4 +25,5 @@ function doWhileLoop(array) {
     console.log('doo-bee-doo-bee-doo')
   } while (maybeTrue());
   array.shift()
+  return array
 }
