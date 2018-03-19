@@ -18,9 +18,10 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
  function maybeTrue() {
- }
- var counter = 1
+  return Math.random() >= 0.5
+}
+ 
   do {
     console.log('doo-bee-doo-bee-doo')
-  } while (counter <= 10);
+  } while (maybeTrue());
 }
